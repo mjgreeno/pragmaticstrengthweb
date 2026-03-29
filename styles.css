@@ -781,6 +781,7 @@ footer {
   .stat-item { min-width: 130px; padding: 22px 20px; }
   #hero { justify-content: flex-start; }
   .hero-content { padding: 96px 24px 40px; }
+  .hero-logo { display: none; }
 }
 
 @media (max-width: 480px) {
