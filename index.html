@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pragmatic Strength | Elite Powerlifting Coaching</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">
+      <img src="images/Pragmatic Logo-01.png" alt="Pragmatic Strength" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#coaches">Coaches</a></li>
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#cta" class="nav-cta">Start Training</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <img src="images/Pragmatic Logo-01.png" alt="Pragmatic Strength Logo" class="hero-logo" />
+      <div class="dict-entry">
+        <div class="dict-word">pragmatic</div>
+        <div class="dict-pron">/ prag · ˈma · tik /</div>
+        <div class="dict-pos">adjective</div>
+        <hr class="dict-hr" />
+        <div class="dict-def">
+          <span class="dict-def-num">1.</span>
+          Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.
+        </div>
+        <div class="dict-example">a pragmatic approach to strength — built on what works, not what's popular.</div>
+        <div class="dict-def">
+          <span class="dict-def-num">2.</span>
+          Focused on results; guided by experience and evidence over ideology.
+        </div>
+        <div class="dict-example">pragmatic athletes train with intention, compete with confidence, and improve relentlessly.</div>
+        <div class="dict-syn">
+          <strong>synonyms:</strong> practical &nbsp;·&nbsp; disciplined &nbsp;·&nbsp; results-driven &nbsp;·&nbsp; sensible &nbsp;·&nbsp; grounded &nbsp;·&nbsp; purposeful
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#cta" class="btn-primary">Start Your Journey</a>
+        <a href="#coaches" class="btn-outline">Meet the Coaches</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-item fade-up">
+        <span class="stat-num">20+</span>
+        <span class="stat-label">Years Coaching Combined</span>
+      </div>
+      <div class="stat-item fade-up">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Lifters Coached</span>
+      </div>
+      <div class="stat-item fade-up">
+        <span class="stat-num">100+</span>
+        <span class="stat-label">Competition Totals PR'd</span>
+      </div>
+      <div class="stat-item fade-up">
+        <span class="stat-num">38</span>
+        <span class="stat-label">All Time World Records</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- COACHES -->
+  <section id="coaches">
+    <div class="coaches-header fade-up">
+      <span class="section-label">The Team</span>
+      <h2 class="section-title">Meet Your <span>Coaches</span></h2>
+      <div class="divider"></div>
+      <p class="section-desc">Our coaches bring competitive experience, multifaceted programming strategies, 
+        and a genuine passion and love for seeing athletes reach their full potential on and offthe platform. We believe relations first and results follow.</p>
+    </div>
+
+    <div class="coaches-grid">
+
+      <!-- Coach Michael -->
+      <div class="coach-card fade-up">
+        <div class="coach-img-wrap" data-carousel>
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="images/carousel/greeno1.png" alt="Coach Michael Greeno" /></div>
+            <div class="carousel-slide"><img src="images/carousel/greeno2.JPG" alt="Michael Greeno coaching" /></div>
+            <div class="carousel-slide"><img src="images/carousel/greeno3.png" alt="Michael Greeno coaching" /></div>
+            <div class="carousel-slide"><img src="images/carousel/greeno4.png" alt="Michael Greeno coaching" /></div>
+          </div>
+          <button class="carousel-btn prev" aria-label="Previous photo">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="carousel-btn next" aria-label="Next photo">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="carousel-dots"></div>
+          <div class="coach-tag">Owner &amp; Head Coach</div>
+        </div>
+        <div class="coach-body">
+          <h3 class="coach-name">Michael Greeno</h3>
+          <div class="coach-role">Founder &amp; Head Powerlifting Coach</div>
+          <p class="coach-bio">
+            Michael Greeno is the founder of Pragmatic Strength and a lifelong competitor in the sport of powerlifting. 
+            With over a 29 years of experience on the platform as a competitor, coach in the judges chair, 
+            Michael has developed a reputation for building world class record breaking athletes who compete with at the highest levels. 
+            His coaching philosophy is deeply rooted seeing the athlete for who they are and what they are capable of. With that vision
+            forge a path to furthest horizons and the highest peaks.
+          </p>
+          <p class="coach-bio">
+            Michael has coached lifters across all experience levels, from first-time competitors to All-Time World Record breaking athletes. 
+            He specializes in all facets of powerlifting from raw to equipped and everything in between. 
+            Michael is a dedicated coach and mentor who is committed to helping athletes achieve their full potential.
+          </p>
+          <div class="coach-certs">
+            <span class="cert-tag">Multi Discipline powerlifter &amp; coach</span>
+            <span class="cert-tag">Respected Judge</span>
+            <span class="cert-tag">Top 40 All Time Lifter (single ply)</span>
+            <span class="cert-tag">Coached 2 of the last3 largest subtotals in the world</span>
+            <span class="cert-tag">Coached 30% of the top 10 largest squats all time</span>
+          </div>
+          <a href="https://www.openpowerlifting.org/u/michaelgreeno" target="_blank" rel="noopener noreferrer" class="opl-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View Competition Record
+          </a>
+        </div>
+      </div>
+
+      <!-- Coach Heidi -->
+      <div class="coach-card fade-up">
+        <div class="coach-img-wrap" data-carousel>
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="images/carousel/heidi1.JPG" alt="Coach Heidi Howar" /></div>
+            <div class="carousel-slide"><img src="images/carousel/heidi2.JPG" alt="Heidi Howar coaching" /></div>
+            <div class="carousel-slide"><img src="images/carousel/heidi3.png" alt="Heidi Howar coaching" /></div>
+            <div class="carousel-slide"><img src="images/carousel/heidi4.png" alt="Heidi Howar coaching" /></div>            <!-- Add more slides here: <div class="carousel-slide"><img src="images/your-photo.jpg" alt="..." /></div> -->
+          </div>
+          <button class="carousel-btn prev" aria-label="Previous photo">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button class="carousel-btn next" aria-label="Next photo">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="carousel-dots"></div>
+          <div class="coach-tag">Coach</div>
+        </div>
+        <div class="coach-body">
+          <h3 class="coach-name">Heidi Howar</h3>
+          <div class="coach-role">Powerlifting Coach / World Class Competitor</div>
+          <p class="coach-bio">
+            Heidi Howar is a legend in the sport of powerlifting. One of the true queens of Westside Barbell she holds records all time and on the coveted westside barbell record board. Heidi's experience is derived from 
+            learning from the best and being mentored by the best. Heidi is one of true knowledge bearers of Westside methodology and philosophy. Her knowledge
+            of conjugate methodology is unmatched and her ability to apply it to the sport of powerlifting in both Raw and Equipped divisions. Heidi is also a
+            true advocate for women in strength sports as a fierce competitor in equipped and raw powerlifting but also in strongman. As coach, mentor, community
+            contributor and overall badass she is a true trailblazer for the sport of strength for women. On top of all of that she is a dedicated Mom,
+            and one of last remaining Westsiders still competing today at the highest levels of the sport. Wherever Heidi goes she carries a legacy with her one forged greatness.  
+          </p>
+          <p class="coach-bio">
+            Heidi works with all skills levels as a coach for strength but also provides nutrition and lifestyle coaching to her clients. 
+          </p>
+          <div class="coach-certs">
+            <span class="cert-tag">526.19 RAW DOTS</span>
+            <span class="cert-tag">Westside Barbell Record Board Holder</span>
+            <span class="cert-tag">Women's Strength Advocate</span>
+            <span class="cert-tag">Current ATWR Holder</span>
+            <span class="cert-tag">Multi time ATWR Holder</span>
+          </div>
+          <a href="https://www.openpowerlifting.org/u/heidihowar" target="_blank" rel="noopener noreferrer" class="opl-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            View Competition Record
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section id="philosophy">
+    <div class="philosophy-inner">
+
+      <div class="fade-up" style="margin-bottom:64px;">
+        <span class="section-label">Our Ethos</span>
+        <h2 class="section-title">The Pragmatic <span>Philosophy</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">Silver bullets are for warewolves not strength athletes. We will fail and we will succeed, 
+          but we will always stay rooted in the belief so we may achieve our goals.</p>
+      </div>
+
+      <div class="philosophy-top fade-up">
+
+        <div class="philosophy-manifesto">
+          <span class="manifesto-quote-mark" aria-hidden="true">"</span>
+          <p class="manifesto-text">
+            Strength is derived from belief. It is a <span>lesson</span> — that is built rep by rep, meet by meet, year by year. At Pragmatic Strength, we believe the most powerful thing a coach can do is help an athlete understand <span>why</span> they train the way they train. 
+            So they may may lead with <span>conviction</span>.
+          </p>
+          <div class="manifesto-attr">— The Pragmatic Strength Coaching Standard</div>
+        </div>
+
+        <div class="philosophy-pillars">
+
+          <div class="pillar-card">
+            <div class="pillar-number">01</div>
+            <h3 class="pillar-title">You Are Number 1</h3>
+            <p class="pillar-desc">Every relationship, program and decision is grounded in Honesty, be true to yourself and your own journey. be true to your coach
+              and your fellow athletes. Be true to the process and the journey.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-number">02</div>
+            <h3 class="pillar-title">Be True to the people you are with</h3>
+            <p class="pillar-desc">No journey is best done alone. We are all in this together, and we all have something to learn from each other. 
+              Be true to the people you are with, and the people you are with you. they will carry you when it counts. </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-number">03</div>
+            <h3 class="pillar-title">Reality First</h3>
+            <p class="pillar-desc">Strength is a an escape its not our profession its our passion. Use the same passion for strength in everything you do 
+              not just in the gym. Goals are all around us achieve them all on all plains of existence.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-number">04</div>
+            <h3 class="pillar-title">Lead with Conviction</h3>
+            <p class="pillar-desc">You are an elaborate tapestry of experiences, emotions, and thoughts. Lead with conviction, not with ego. strength is but 
+              one small pattern in the fabric of your life. there is so much more to you never forget that.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="achievements-inner">
+
+      <div class="achievements-header fade-up">
+        <span class="section-label">Track Record</span>
+        <h2 class="section-title">Achievements &amp; <span>Highlights</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">Results built through belief, consistency, and a commitment to the process — on and off the platform.</p>
+      </div>
+
+      <div class="achievements-grid">
+
+        <div class="achievement-card fade-up">
+          <div class="achievement-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <h3 class="achievement-title">Record Holders</h3>
+          <p class="achievement-desc">Pragmatic Strength athletes have a lineage of breaking all time world records in all disciplines of powerlifting regardless of federation. 
+            But even at state, national and international levels we have a long history of breaking records and achieving greatness.
+          </p>
+        </div>
+
+        <div class="achievement-card fade-up">
+          <div class="achievement-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <h3 class="achievement-title">World, National,State &amp; Regional Champions</h3>
+          <p class="achievement-desc">The current KS state chamption best lifter is a Pragmatic Strength athlete. 
+            Multiple state and regional championship titles across weight classes and age divisions, from Open to Masters.
+          Pragmatic Strength athletes hold titles in every fedartion all across the globe.</p>
+        </div>
+
+        <div class="achievement-card fade-up">
+          <div class="achievement-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>
+            </svg>
+          </div>
+          <h3 class="achievement-title">Results Talk</h3>
+          <p class="achievement-desc">Pragmatic Strength lifters hold 2 of the last 3 largest subtotals in the world and 30% of the top 10 largest raw squats all time.
+            20% of the largest raw totals in the top 15 all time. Numbers don't lie, results talk.
+          </p>
+        </div>
+
+        <div class="achievement-card fade-up">
+          <div class="achievement-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="achievement-title">500+ Athletes Coached</h3>
+          <p class="achievement-desc">Over 150 clients were coached before Pragmatic Strength was founded. 
+            This is not a fly by night instant success story. It came with tireless work and 10 times as many failures opposed to successes.</p>
+        </div>
+
+        <div class="achievement-card fade-up">
+          <div class="achievement-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3 class="achievement-title">For the long haul</h3>
+          <p class="achievement-desc">This is a long game, results come quick and sometimes they can take time. This is a home to many having multiple clients 
+            being here for over 10+ years. However, should a client seek new horizons the average client who chooses to leave 
+            will be around for at least 2.5-3 years. 
+             </p>
+        </div>
+
+        <div class="achievement-card fade-up">
+          <div class="achievement-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="achievement-title">Proven in Tested and Untested </h3>
+          <p class="achievement-desc">Whether it be the largest Tested or Untested stagest on the planet, Pragmatic Strength 
+            athletes have proven themselves at the highest levels of the sport. Pragmatic Strength possess some the highest numbers ever recorded in the sport
+          in both drug-tested and Untested divisions.</p>
+        </div>
+
+      </div>
+
+      <!-- HIGHLIGHTS LIST -->
+      <div class="fade-up">
+        <h3 class="highlights-title">Competition Highlights</h3>
+        <ul class="highlights-list">
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="10" height="10" viewBox="0 0 12 10" fill="none" stroke="white" stroke-width="2"><polyline points="1 5 4.5 8.5 11 1"/></svg>
+            </span>
+            USAPL KS 2026 State Championship in SHW, 110kg, 100kg, 90kg
+          </li>
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="10" height="10" viewBox="0 0 12 10" fill="none" stroke="white" stroke-width="2"><polyline points="1 5 4.5 8.5 11 1"/></svg>
+            </span>
+            ABS Rumble 2024, ABS Clash of Titans 2025 Champion
+          </li>
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="10" height="10" viewBox="0 0 12 10" fill="none" stroke="white" stroke-width="2"><polyline points="1 5 4.5 8.5 11 1"/></svg>
+            </span>
+            PLU National Champion 2025
+          </li>
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="10" height="10" viewBox="0 0 12 10" fill="none" stroke="white" stroke-width="2"><polyline points="1 5 4.5 8.5 11 1"/></svg>
+            </span>
+            Largest Subtotal all time 2025, and first ever to squat 1000+lbs in their first meet ever.
+          </li>
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="10" height="10" viewBox="0 0 12 10" fill="none" stroke="white" stroke-width="2"><polyline points="1 5 4.5 8.5 11 1"/></svg>
+            </span>
+            Over 144 State Records broken in 2025 and 75 national records broken in 2025 alone
+          </li>
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="10" height="10" viewBox="0 0 12 10" fill="none" stroke="white" stroke-width="2"><polyline points="1 5 4.5 8.5 11 1"/></svg>
+            </span>
+            Average client PR increase year over year was 5.4% between all clients.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta">
+    <div class="cta-inner">
+      <span class="section-label">Get Started</span>
+      <h2 class="cta-title fade-up">Ready to Step <span style="color:var(--red)">on the Platform?</span></h2>
+      <div class="divider"></div>
+      <p class="cta-desc fade-up">Whether you're a first-time competitor or a seasoned lifter looking to break through a plateau — we'll build a program around your goals. Reach out and let's talk.</p>
+
+      <div class="fade-up" style="display:flex;flex-direction:column;align-items:center;gap:16px;margin-top:8px;">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1BbNhN-ocOUUdqk_Id2W2c6i5Ik6J5STpUUQZ2ntuthu8Iw/viewform?usp=publish-editor"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn-primary"
+           style="font-size:17px;padding:20px 48px;display:inline-flex;align-items:center;gap:10px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Apply to Work With Us
+        </a>
+        <p class="cta-note">Opens in a new tab &nbsp;·&nbsp; We'll get back to you within 48 hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">
+      <img src="images/Pragmatic Logo-01.png" alt="Pragmatic Strength" />
+    </div>
+    <p class="footer-copy">&copy; 2025 Pragmatic Strength. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#coaches">Coaches</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#cta">Contact</a></li>
+    </ul>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
