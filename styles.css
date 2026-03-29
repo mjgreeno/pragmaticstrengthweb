@@ -779,7 +779,8 @@ footer {
   .coaches-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .stat-item { min-width: 130px; padding: 22px 20px; }
-  .hero-content { padding: 0 24px; }
+  #hero { justify-content: flex-start; }
+  .hero-content { padding: 96px 24px 40px; }
 }
 
 @media (max-width: 480px) {
